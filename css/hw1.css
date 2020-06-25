@@ -1,0 +1,126 @@
+/*MY CODE*/
+body {
+    margin:5px;
+    padding:15px;
+}
+header {
+    background-image: url('../images/flywheel.jpg');
+    height: 200px;
+    background-size: auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times;
+    font-size: 120%;
+}
+h1{
+    height:35%;
+    padding-top: 20px;
+}
+nav{
+    font-variant: small-caps;
+	font-family: "Times New Roman", Georgia, Times, serif;
+    font-size: 120%;
+}
+nav a{
+    display: inline-block;
+    background-color: #FFFFFF;
+    height: 40px;
+    padding:10px;
+    opacity: 0.5;
+    text-decoration: none;
+    border-radius: 10%;
+    color:black;
+    width: 18%;
+    margin-right: 10px;
+}
+nav a:hover, .active{
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+.left {
+    width:30%;
+	margin-right: 2%;
+    float:left;
+    background-color: rgb(126, 126, 9);
+
+}
+aside img {
+    display: block;
+    border-radius: 5%;
+    width: 60%;
+    border-style: outset;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+.right{
+    width: 67%;
+    float:right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+/*PERFECT CODE
+body{
+	margin: 0.5% 0.5% 0% 0.5%;
+	padding:0.5% 0.5% 0% 0.5%;
+	
+}
+header{
+	background-image: url("../images/flywheel.jpg");
+	background-color: RGBA(0,255,0,0.5);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding:0.5%;	
+}
+h1{
+	text-align:center;
+	color: RGBA(255,255,255,1);
+	text-transform:uppercase;
+	font-size:225%;
+}
+nav{
+	text-align:center;
+}
+nav a{
+	display:inline-block;
+	text-decoration:none;
+	padding:1% 6%;
+	margin:1% 2%;
+	background:RGBA(100,100,100,0.8);
+	border-radius:5px;
+	color:RGB(0,0,0);
+}
+nav a:hover{
+	background:RGBA(0,250,250,0.5);
+}
+.active{
+	background:RGBA(220,220,220,0.8);
+	border-style:dotted;
+}
+main{
+	display:table;
+	width:100%;
+
+}
+.left{
+	display:table-cell;
+	width:20%;
+	background: linear-gradient(RGBA(0,200,200,0.5),RGBA(250,0,250,0.5));
+	height:auto;
+}
+.right{
+	display:table-cell;
+	vertical-align:top;
+	width:70%;
+	font-size:125%;
+}
+h2{
+	font-variant:small-caps;
+}
+img{
+	display:block;
+	width:70%;
+	margin:10% auto;
+	border-style:solid;
+}
+*/
