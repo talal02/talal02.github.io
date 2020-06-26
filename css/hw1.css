@@ -1,126 +1,115 @@
-/*MY CODE*/
 body {
-    margin:5px;
-    padding:15px;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
 }
-header {
-    background-image: url('../images/flywheel.jpg');
-    height: 200px;
-    background-size: auto;
-    color: #FFFFFF;
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times;
-    font-size: 120%;
-}
-h1{
-    height:35%;
-    padding-top: 20px;
-}
-nav{
-    font-variant: small-caps;
-	font-family: "Times New Roman", Georgia, Times, serif;
-    font-size: 120%;
-}
-nav a{
-    display: inline-block;
-    background-color: #FFFFFF;
-    height: 40px;
-    padding:10px;
-    opacity: 0.5;
-    text-decoration: none;
-    border-radius: 10%;
-    color:black;
-    width: 18%;
-    margin-right: 10px;
-}
-nav a:hover, .active{
-    background-color: #FFFFFF;
-    opacity: 1;
-}
-.left {
-    width:30%;
-	margin-right: 2%;
-    float:left;
-    background-color: rgb(126, 126, 9);
 
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-aside img {
-    display: block;
-    border-radius: 5%;
-    width: 60%;
-    border-style: outset;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 10px; 
-}
-.right{
-    width: 67%;
-    float:right;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 150%;
-}
-/*PERFECT CODE
-body{
-	margin: 0.5% 0.5% 0% 0.5%;
-	padding:0.5% 0.5% 0% 0.5%;
-	
-}
-header{
-	background-image: url("../images/flywheel.jpg");
-	background-color: RGBA(0,255,0,0.5);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding:0.5%;	
-}
-h1{
-	text-align:center;
-	color: RGBA(255,255,255,1);
-	text-transform:uppercase;
-	font-size:225%;
-}
-nav{
-	text-align:center;
-}
-nav a{
-	display:inline-block;
-	text-decoration:none;
-	padding:1% 6%;
-	margin:1% 2%;
-	background:RGBA(100,100,100,0.8);
-	border-radius:5px;
-	color:RGB(0,0,0);
-}
-nav a:hover{
-	background:RGBA(0,250,250,0.5);
-}
-.active{
-	background:RGBA(220,220,220,0.8);
-	border-style:dotted;
-}
-main{
-	display:table;
-	width:100%;
 
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
 }
-.left{
-	display:table-cell;
-	width:20%;
-	background: linear-gradient(RGBA(0,200,200,0.5),RGBA(250,0,250,0.5));
-	height:auto;
+
+.navigation  li.logo {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
 }
-.right{
-	display:table-cell;
-	vertical-align:top;
-	width:70%;
-	font-size:125%;
+
+#banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
 }
-h2{
-	font-variant:small-caps;
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
 }
-img{
-	display:block;
-	width:70%;
-	margin:10% auto;
-	border-style:solid;
+
+#main {
+  padding: 40px;
+  text-align: center;
+  width: 400px;
 }
-*/
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+.pull-quote {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.byline {
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: DarkGrey;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
