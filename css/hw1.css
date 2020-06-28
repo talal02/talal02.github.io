@@ -1,118 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 body {
-  background-color: white;
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 1.4;
+    color: #FFFFFF;
 }
-
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
-}
-
-.navigation  li.logo {
-  color: black;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 4px;
-}
-
-#banner {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
-  background-size: cover;
-  background-position: bottom center;
-  height: 700px;
-  width: 100%;
-}
-
-#banner .content h1 {
-  border: 3px solid white;
-  position: relative;
-  top: 50px;
-  width: 400px;
-  margin: 0 auto;
-}
-
-#main {
-  margin: 0 auto;
-  padding: 40px;
-  text-align: center;
-  width: 400px;
-  height: 1000px;
-  overflow: scroll;
-}
-
-h1 {
-  color: white;
-  font-size: 42px;
-  font-weight: 600;
-  text-align: center;
-}
-
+  
+h1,
 h2 {
-  border: 1px dotted red;
-  color: red;
-  font-size: 14px;
-  line-height: 48px;
-  padding: 20px 30px;
-  margin: 30px 20px;
-  text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+  
+h1 {
+    font-size: 100px;
+}
+  
+h2 {
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #BE3144;
+    z-index: 10;
+}
+  
+ul {
+    display: flex;
+    margin-right: 20px;
+}
+  
+li {
+    display: block;
+    font-size: 150%;
+    padding: 20px;
 }
 
-h3 {
-  color: red;
-  font-size: 26px;
-  font-weight: 700;
-  padding: 20px 10px;
+ul li:hover {
+    background-color: #45567d;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 102%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+.about > p {
+    font-size: 60px;
+    font-weight: 200;
+    font-style: italic;
+    color: #BE3144;
 }
 
-p {
-  color: grey;
-  font-size: 16px;
-  line-height: 48px;
-  margin-top: 60px;
-  padding: 10px 20px;
-}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 98%;
+    height: 80vh;
+    padding: 0 20px;
+    background: #45567d;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 80px;
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 48px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    margin-right: 50px;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  a {
+      text-decoration: none;
+      color: #FFFFFF
+  }
+  
 
-.pull-quote {
-  margin: 0 auto;
-  width: 400px;
-}
 
-.byline {
-  border-bottom: 1px solid LightGrey;
-  border-top: 1px solid LightGrey;
-  color: DarkGrey;
-  font-size: 14px;
-  font-weight: 200;
-}
-
-.share {
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-.share a {
-  background: red;
-  border: 1px solid red;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  margin: 10px;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.share a:hover {
-  background: white;
-  border: 1px solid red;
-  color: red;
-}
+  
