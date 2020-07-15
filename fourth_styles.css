@@ -1,0 +1,60 @@
+.navbar {
+    line-height: 2.5;
+    background-color: #FFF;
+    border-bottom: 3px solid #008EDB;
+    opacity: 1;
+    z-index: 3;
+}
+.nav-item {
+    padding-right: 15px;
+}
+.logo {
+    height: 40px;
+    padding-bottom: 5px;
+}
+#home {
+    margin-top: 78px;
+    height: 600px;
+    width: 100%;
+    background-image: url("./mountains.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.inner-home{
+    background: rgba(0, 0, 60, 0.6);
+    height: 600px;
+}
+#home-2 {
+    background-color: #333;
+}
+body {
+    color: #000;
+}
+.btn-sub {
+    background-color: #008EDB;
+    color: #FFF;
+}
+.home-3-b1, .home-3-b2 {
+    border: 3px solid #008EDB;
+    color: #333;
+}
+.home-3-b2 {
+    background-color: #008EDB;
+    color: #FFF;
+}
+.home-3-h1 {
+    color: #008EDB;
+}
+.about-overlay {
+    background-color: rgba(0,0,0,0.1);;
+}
+.imgs {
+    margin-top: -50px;
+}
+#meet .card:hover{
+    background-color: #008EDB;
+    color: #FFF ;
+}
+#meet .card:hover  .fa{
+    color: #FFF;
+}
