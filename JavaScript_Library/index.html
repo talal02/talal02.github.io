@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <style>
+        .input-group-text {
+            border-right: none !important;
+            border-bottom-right-radius: 0px !important;
+            border-top-right-radius: 0px !important;
+        }   
+    </style>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Personal Library</title>
+  </head>
+  <body class="bg-primary">
+    <div class="container text-center bg-light py-5">
+        <div class="alert alert-warning text-danger font-weight-bold">
+            Please Fill All Fields..!
+        </div>
+        <div class="alert alert-success text-dark font-weight-bold">
+            Book Added Successfully..!
+        </div>
+        <div class="alert alert-danger text-dark font-weight-bold">
+            Book Removed Successfully..!
+        </div>
+        <h1 class="display-4 text-primary mb-3 font-italic">ADD A BOOK</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-12">
+                <form id="book-input">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-text text-white font-weight-bold bg-primary"><i class="fa fa-bookmark"></i>&nbsp;Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input type="text" class="form-control" id="title" placeholder="Enter Title">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-text text-white font-weight-bold bg-primary"><i class="fa fa-book"></i>&nbsp;Author</span>
+                            <input type="text" class="form-control" id="author" placeholder="Enter Name of Author">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-text text-white font-weight-bold bg-primary"><i class="fa fa-pencil"></i>&nbsp; ISBN&nbsp;&nbsp;&nbsp;</span>
+                            <input type="text" class="form-control" id="isbn" placeholder="Enter ISBN">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary text-white btn-block" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mx-5 justify-content-center py-3">
+            <div class="col-12">
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col">Book</th>
+                            <th scope="col">Author</th>
+                            <th scope="col">ISBN</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="book-list"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./books.js"></script>
+  </body>
+</html>
