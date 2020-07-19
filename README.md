@@ -1,2 +1,2 @@
-# html.github.io
-Learn HTML5 with me!
+# talal02.github.io/main.html
+Learn Web Development with me!
