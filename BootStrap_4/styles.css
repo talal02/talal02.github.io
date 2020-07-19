@@ -1,0 +1,40 @@
+body {
+  font-family: 'Montserrat'; 
+  color: #FFFFFF;
+}
+.nav-link{
+  font-family: 'Montserrat';
+  color: #777777;
+  font-size: medium;
+}
+.nav-link:hover {
+  color: #1ABC9C;
+}
+#nav-main:hover {
+  color: #444444;
+}
+.navbar-toggler{
+  border-color: #DDDDDD;
+}
+.icon-bar{
+  background-color: #777777;
+  font-size: xx-small;
+  line-height: 0.3;
+  color:#777777;
+}
+.navbar-toggler:hover{
+  background-color: #DDDDDD;
+}
+#who {
+  background-color: #1ABC9C;
+  
+}
+#what {
+  background-color: #474E5D;
+}
+#where {
+  color: #333333;
+}
+#foot {
+  background-color: #2F2F2F;
+}
