@@ -26,11 +26,11 @@ function StartGame(num) {
                     messageDisplay.textContent = "";
                 }, 2000);
             } else {
-                squares[i].style.backgroundColor = '#232323';
+                squares[i].style.backgroundColor = '#c8e1ff';
                 messageDisplay.textContent = "Try Again!";
                 heading.style.backgroundColor = '#dc3545';
                 setTimeout(function(){
-                    heading.style.backgroundColor = '#232323';
+                    heading.style.backgroundColor = '#c8e1ff';
                 }, 1000);
             }
         });
@@ -70,7 +70,7 @@ function ResetGame(num) {
             if(i < 3){
                 squares[i].style.backgroundColor = colors[i];
             } else {
-                squares[i].style.backgroundColor = '#232323';
+                squares[i].style.backgroundColor = '#c8e1ff';
             }
         } else {
             squares[i].style.backgroundColor = colors[i];
