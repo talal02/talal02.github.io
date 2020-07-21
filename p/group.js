@@ -31,7 +31,7 @@ const data = [
         age: 21,
         gender: 'male',
         known: 'Comsats',
-        moto: 'Hmara 2nd Hand Samraan agay ap khud samghdar hain',
+        moto: '<strong>Nahi yaar sirf dost hai</strong>',
         location: 'Rawalpindi',
         image: './f.jpeg'
     },
