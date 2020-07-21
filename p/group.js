@@ -13,7 +13,7 @@ const data = [
         age: 19,
         gender: 'male',
         known: 'Sakht Launda',
-        moto: 'I won 1 Lac through e-sports (Treat ???)',
+        moto: 'Sandwich khanay ka kuch zyada shauq hai',
         location: 'Pindi-Gheb',
         image: './m.jpeg'
     },
