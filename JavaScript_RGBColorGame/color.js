@@ -22,6 +22,9 @@ function StartGame(num) {
                 messageDisplay.textContent = "Yea Boy!";
                 heading.style.backgroundColor = randomColor;
                 resetBtn.textContent = 'Play Again!';
+                setTimeout(function(){
+                    messageDisplay.textContent = "";
+                }, 2000);
             } else {
                 squares[i].style.backgroundColor = '#232323';
                 messageDisplay.textContent = "Wrong..!";
