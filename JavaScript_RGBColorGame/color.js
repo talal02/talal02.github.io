@@ -27,7 +27,7 @@ function StartGame(num) {
                 }, 2000);
             } else {
                 squares[i].style.backgroundColor = '#232323';
-                messageDisplay.textContent = "Wrong..!";
+                messageDisplay.textContent = "Try Again!";
                 heading.style.backgroundColor = '#dc3545';
                 setTimeout(function(){
                     heading.style.backgroundColor = '#232323';
