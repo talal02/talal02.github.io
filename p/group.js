@@ -12,7 +12,7 @@ const data = [
         name: 'Mehmood Amjad',
         age: 19,
         gender: 'male',
-        known: 'Shakt Lauda',
+        known: 'Sakht Launda',
         moto: 'I won 1 Lac through e-sports (Treat ???)',
         location: 'Pindi-Gheb',
         image: './m.jpeg'
