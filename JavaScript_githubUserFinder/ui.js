@@ -33,7 +33,7 @@ class UI {
     }
 
     displayProfile(user) {
-        let link = `https://` + `${user.blog}`;
+        let link = `${user.blog}`;
         this.profile.innerHTML = `
         <div class="card card-body my-3">
           <div class="row">
