@@ -24,7 +24,10 @@ function StartGame(num) {
                 resetBtn.textContent = 'Play Again!';
                 setTimeout(function(){
                     messageDisplay.textContent = "";
-                }, 2000);
+                }, 3500);
+                for(let i = 0; i<number; i++){
+                    squares[i].style.backgroundColor = randomColor;
+                }
             } else {
                 squares[i].style.backgroundColor = '#c8e1ff';
                 messageDisplay.textContent = "Try Again!";
