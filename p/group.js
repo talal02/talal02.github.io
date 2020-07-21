@@ -3,7 +3,7 @@ const data = [
         name: 'Usman Baig',
         age: 19,
         gender: 'male',
-        known: 'Fast Ka Qari Sb.',
+        known: 'Fast Ka Play Boy',
         moto: 'Mazeed Kattana Hai Chahy Jitna Bhi Katty',
         location: 'Rawalpindi',
         image: './u.jpeg'
