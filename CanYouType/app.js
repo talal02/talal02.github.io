@@ -1648,7 +1648,7 @@ var words = [
     "aeromancy"
 ]
 
-let timeToType = 21; 
+let timeToType = 12; 
 let wordToType;
 let totalScore = 0;
 const UpdateTime = () => {
@@ -1679,7 +1679,7 @@ const Typer = () => {
             input.value = '';
             incrementScore(wordToType.length);
             displayWord();
-            timeToType = 21;
+            timeToType = 12;
         }
     })
     setInterval(()=>{
