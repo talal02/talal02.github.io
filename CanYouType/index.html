@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        body {
+            font-family: 'Amatic SC', cursive !important;
+            font-weight: 700 !important;
+            background: linear-gradient(to left, #89f7fe, #66a6ff);
+        }
+        .wording {
+            font-size: 2rem;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>CanYouType</title>
+  </head>
+  <body>
+    <div class="cotainer-fluid m-5 p-5">
+        <div class="my-5">
+            <div class="my-5">
+                <div class="row justify-content-center" id="first">
+                    <div class="col-12 col-md-6 text-center">
+                        <h1 class="text-dark display-4"><i class="fa fa-desktop"></i> Speed Test <i class="fa fa-user"></i></h1>
+                        <p class="pt-3 text-danger wording"><i class="fa fa-clock-o"></i> Time Remaining :&nbsp;<span id="time"></span>&nbsp;s</p>
+                        <p class="pt-1 text-success wording"><i class="fa fa-tachometer"></i> Score :&nbsp;<span id="score"></span></p>
+                        <p class="text-white pt-1 wording">Type the following</p>
+                        <h3 class="text-info display-4" id="word"></h3>
+                        <div class="row justify-content-center pt-3">
+                            <input type="text" id="type" class="form-control w-50" placeholder="Start Typing...">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center d-none" id="second">
+                    <div class="col-12 col-md-6 text-center">
+                        <p class="text-white wording"></p>
+                        <p class="text-white font-weight-bold wording">Better Luck Next Time ❤️</p>
+                        <a class="btn btn-dark" href="./index.html">Try Again</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
