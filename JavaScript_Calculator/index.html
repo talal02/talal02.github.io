@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shojumaru&family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="my-5 py-5">
+        <h1 class="display-4 text-center text-white heading">CALCULATOR</h1>
+        <div class="my-5 py-5">
+            <div class="row justify-content-center">
+                <div class="col-8 col-sm-6 col-lg-4 screen">
+                    <div class="row">
+                        <div class="col-12 output-1 d-flex align-items-center justify-content-end" id="screen1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 output-2 text-right d-flex align-items-end justify-content-end pb-2" id="screen2"></div>
+                    </div>
+                    <div class="row" id="row1">
+                        <div class="col-6 calc-btn"><button class="text-info">AC</button></div>
+                        <div class="col-3 calc-btn"><button class="text-danger">DEL</button></div>
+                        <div class="col-3 calc-btn"><button class="text-primary">/</button></div>
+                    </div>
+                    <div class="row" id="row2">
+                        <div class="col-3 calc-btn"><button>7</button></div>
+                        <div class="col-3 calc-btn"><button>8</button></div>
+                        <div class="col-3 calc-btn"><button>9</button></div>
+                        <div class="col-3 calc-btn"><button class="text-primary">*</button></div>
+                    </div>
+                    <div class="row" id="row3">
+                        <div class="col-3 calc-btn"><button>4</button></div>
+                        <div class="col-3 calc-btn"><button>5</button></div>
+                        <div class="col-3 calc-btn"><button>6</button></div>
+                        <div class="col-3 calc-btn"><button class="text-primary">-</button></div>
+                    </div>
+                    <div class="row" id="row4">
+                        <div class="col-3 calc-btn"><button>1</button></div>
+                        <div class="col-3 calc-btn"><button>2</button></div>
+                        <div class="col-3 calc-btn"><button>3</button></div>
+                        <div class="col-3 calc-btn"><button class="text-primary">+</button></div>
+                    </div>
+                    <div class="row" id="row5">
+                        <div class="col-3 calc-btn"><button>.</button></div>
+                        <div class="col-3 calc-btn"><button>0</button></div>
+                        <div class="col-6 calc-btn"><button class="text-success">=</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
