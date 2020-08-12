@@ -107571,7 +107571,7 @@ var words = [
     "\ufffdtuis"
 ]
 
-let timeToType = 21; 
+let timeToType = 12; 
 let wordToType;
 let totalScore = 0;
 const UpdateTime = () => {
@@ -107586,9 +107586,13 @@ const displayWord = () => {
 
 const incrementScore = (length) => {
     if(length > 8){
+        totalScore += 4;
+    } else if(length > 6){
+        totalScore += 3;
+    }else if(length > 4){
         totalScore += 2;
     } else {
-        totalScore++;
+	totalScore++;
     }
     score.innerHTML = totalScore;
 }
@@ -107602,7 +107606,7 @@ const Typer = () => {
             input.value = '';
             incrementScore(wordToType.length);
             displayWord();
-            timeToType = 21;
+            timeToType = 12;
         }
     })
     setInterval(()=>{
