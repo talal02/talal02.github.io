@@ -42,7 +42,9 @@
 .bg-icons {
     background: #FFF;
 }
-
+.icons {
+    font-size: 3.5rem;
+}
 .icons > span > i{
     transition: transform 1s;
 }
@@ -95,7 +97,9 @@ button {
         font-size: 1.25rem;
         color: #B22222;
     }   
-
+    .icons {
+    font-size: 2.25rem;
+    }
     .icons > span > i{
         font-size: 2.8rem;
     }   
