@@ -67,6 +67,10 @@
     font-size: 1.25rem;
 }
 
+.rotate > span > i {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
 #projects > a {
     font-size: 1.25rem;
 }
@@ -107,4 +111,13 @@ button {
     #projects > a {
         font-size: 0.75rem;
     }
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
