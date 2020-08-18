@@ -102,12 +102,8 @@ button {
         color: #B22222;
     }   
     .icons {
-    font-size: 2.25rem;
+    font-size: 1.8rem;
     }
-    .icons > span > i{
-        font-size: 2.8rem;
-    }   
-
     #projects > a {
         font-size: 0.75rem;
     }
