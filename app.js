@@ -9,8 +9,6 @@ const loading = () => {
     const loadingElements = document.querySelectorAll('.hide');
     loadingElements[0].classList.add('d-none');
     loadingElements[0].classList.remove('d-flex')
-    loadingElements[1].classList.add('d-none');
-    loadingElements[1].classList.remove('d-flex')
     const mainContent = document.querySelectorAll('.content')
     mainContent[0].classList.remove('d-none');
     mainContent[1].classList.remove('d-none');
