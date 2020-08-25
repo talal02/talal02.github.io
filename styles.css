@@ -45,12 +45,9 @@
 .icons {
     font-size: 3.5rem;
 }
-.icons > span > i{
-    transition: transform 1s;
-}
 
-.icons > span > i:hover {
-    transform: translate(0px, -20px);
+.icons1 {
+    font-size: 1.8rem;
 }
 
 #about-me {
@@ -103,6 +100,9 @@ button {
     }   
     .icons {
     font-size: 1.8rem;
+    }
+    .icons1 {
+        font-size: 1rem;
     }
     #projects > a {
         font-size: 0.75rem;
