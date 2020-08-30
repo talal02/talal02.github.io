@@ -1,6 +1,7 @@
 const simple = document.querySelector('#projects').children[0];
 const js = document.querySelector('#projects').children[1];
 const node = document.querySelector('#projects').children[2];
+const react = document.querySelector('#projects').children[3];
 const projects = document.querySelector('#projects-section');
 
 const loading = () => {
@@ -21,9 +22,11 @@ const simplebutton = (e) => {
     projects.children[3].classList.remove('d-none');
     projects.children[4].classList.add('d-none');
     projects.children[5].classList.add('d-none');
+    projects.children[6].classList.add('d-none');
     simple.classList.add('active');
     js.classList.remove('active');
     node.classList.remove('active');
+    react.classList.remove('active');
     e.preventDefault();
 }
 
@@ -31,9 +34,11 @@ const jsbutton = (e) => {
     projects.children[3].classList.add('d-none');
     projects.children[4].classList.remove('d-none');
     projects.children[5].classList.add('d-none');
+    projects.children[6].classList.add('d-none');
     js.classList.add('active');
     node.classList.remove('active');
     simple.classList.remove('active');
+    react.classList.remove('active');
     e.preventDefault();
 }
 
@@ -41,9 +46,23 @@ const nodebutton = (e) => {
     projects.children[3].classList.add('d-none');
     projects.children[4].classList.add('d-none');
     projects.children[5].classList.remove('d-none');
+    projects.children[6].classList.add('d-none');
     node.classList.add('active');
     simple.classList.remove('active');
     js.classList.remove('active');
+    react.classList.remove('active');
+    e.preventDefault();
+}
+
+const reactbutton = (e) => {
+    projects.children[3].classList.add('d-none');
+    projects.children[4].classList.add('d-none');
+    projects.children[5].classList.add('d-none');
+    projects.children[6].classList.remove('d-none');
+    node.classList.remove('active');
+    simple.classList.remove('active');
+    js.classList.remove('active');
+    react.classList.add('active');
     e.preventDefault();
 }
 
@@ -107,16 +126,25 @@ const nodeEvents = () => {
     });
 }
 
+const reactEvents = () => {
+    const reactWeb = projects.children[6];
+    nodeWeb.children[0].addEventListener('click', ()=>{
+        window.open('https://burger-builder-a9536.web.app/', '_blank');
+    });
+}
+
 const portfolio = () => {
     setTimeout(loading, 6000);
 
     simple.addEventListener('click', simplebutton);
     js.addEventListener('click', jsbutton);
     node.addEventListener('click', nodebutton);
-
+    react.addEventListener('click', reactbutton);
+    
     simpleEvents();
     jsEvents();
     nodeEvents();
+    reactEvents();
 }
 
 portfolio();
