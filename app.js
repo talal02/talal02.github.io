@@ -128,7 +128,7 @@ const nodeEvents = () => {
 
 const reactEvents = () => {
     const reactWeb = projects.children[6];
-    nodeWeb.children[0].addEventListener('click', ()=>{
+    reactWeb.children[0].addEventListener('click', ()=>{
         window.open('https://burger-builder-a9536.web.app/', '_blank');
     });
 }
