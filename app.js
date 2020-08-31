@@ -131,6 +131,9 @@ const reactEvents = () => {
     reactWeb.children[0].addEventListener('click', ()=>{
         window.open('https://burger-builder-a9536.web.app/', '_blank');
     });
+    reactWeb.children[1].addEventListener('click', ()=>{
+        window.open('https://covid-19-tracker-talal02.web.app', '_blank');
+    });
 }
 
 const portfolio = () => {
