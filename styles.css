@@ -62,7 +62,7 @@
 
 .about-p {
     font-size: 1.25rem;
-    text-align: justify;
+    text-align: justify !important;
     text-justify: inter-word;
 }
 
