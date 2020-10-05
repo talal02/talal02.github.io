@@ -1,1 +1,100 @@
-.bg{background:linear-gradient(to left, #80CED7, #007EA7);font-family:'Baloo Tamma 2',cursive !important}.name{color:rgba(255, 255, 255, 0.7);font-size:4rem;font-weight:400;transition:transform 2s}.name:hover{color:rgba(255,255,255,1);transform:rotate(-5deg)}.name-s{font-weight:600;font-size:1.3rem}.nav-s{font-size:1.7rem}.nav-s>a{color:#FFF;text-decoration:none}.nav-s>a:hover{font-size:2rem;color:#B22222}.nav-s>span{font-size:2rem;color:#B22222}.bg-icons{background:#FFF}.icons{font-size:3.5rem}.icons1{font-size:1.8rem}#about-me{color:rgba(255,255,255,1);font-size:1.5rem;font-weight:600}.bg-about{background-color:#FFF}.about-p{font-size:1.25rem;text-align:justify !important;text-justify:inter-word}.rotate{-webkit-animation:rotation 4s infinite linear}#projects>a{font-size:1.25rem}button{border:none}#contact>p>a>span>i{transition:transform 1s}#contact>p>a>span>i:hover{transform:translate(0px, -10px)}@media only screen and (max-width: 680px){.nav-s{font-size:1rem}.nav-s>a:hover{font-size:1.2rem;color:#B22222}.nav-s>span{font-size:1.25rem;color:#B22222}.icons{font-size:1.8rem}.icons1{font-size:1rem}#projects>a{font-size:0.75rem}}@-webkit-keyframes rotation{from{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(359deg)}}
+.bg {
+	background: linear-gradient(to left, #80CED7, #007EA7);
+	font-family: 'Baloo Tamma 2', cursive !important;
+}
+.name {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 4rem;
+	font-weight: 400;
+	transition: transform 2s;
+}
+.name:hover {
+	color: rgba(255, 255, 255, 1);
+	transform: rotate(-5deg);
+}
+.name-s {
+	font-weight: 600;
+	font-size: 1.3rem;
+}
+.nav-s {
+	font-size: 1.7rem;
+}
+.nav-s > a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nav-s > a:hover {
+	font-size: 2rem;
+	color: #B22222;
+}
+.nav-s > span {
+	font-size: 2rem;
+	color: #B22222;
+}
+.bg-icons {
+	background: #FFF;
+}
+.icons {
+	font-size: 3.5rem;
+}
+.icons1 {
+	font-size: 1.8rem;
+}
+#about-me {
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.bg-about {
+	background-color: #FFF;
+}
+.about-p {
+	font-size: 1.25rem;
+	text-align: justify !important;
+	text-justify: inter-word;
+}
+.rotate {
+	-webkit-animation: rotation 4s infinite linear;
+}
+#projects > a {
+	font-size: 1.25rem;
+}
+button {
+	border: none;
+}
+#contact > p > a > span > i {
+	transition: transform 1s;
+}
+#contact > p > a > span > i:hover {
+	transform: translate(0px, -10px);
+}
+@media only screen and (max-width: 680px) {
+	.nav-s {
+		font-size: 1rem;
+	}
+	.nav-s > a:hover {
+		font-size: 1.2rem;
+		color: #B22222;
+	}
+	.nav-s > span {
+		font-size: 1.25rem;
+		color: #B22222;
+	}
+	.icons {
+		font-size: 1.8rem;
+	}
+	.icons1 {
+		font-size: 1rem;
+	}
+	#projects > a {
+		font-size: 0.75rem;
+	}
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
