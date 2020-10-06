@@ -8,8 +8,8 @@ const loading = () => {
 	document.querySelector('body').classList.remove('bg-info');
 	const loadingElements = document.querySelectorAll('.hide');
 	loadingElements[0].classList.add('d-none');
-	loadingElements[0].classList.remove('d-flex') 
-	const mainContent = document.querySelectorAll('.content') 
+	loadingElements[0].classList.remove('d-flex'); 
+	const mainContent = document.querySelectorAll('.content'); 
 	mainContent[0].classList.remove('d-none');
 	mainContent[1].classList.remove('d-none');
 	mainContent[2].classList.remove('d-none');
